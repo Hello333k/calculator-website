@@ -3,24 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="dark" />
-    <title>Scientific Calculator</title>
+    <meta name="color-scheme" content="light" />
+    <title>Calculator</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page" aria-label="Scientific calculator">
+    <main class="page" aria-label="Calculator">
       <section class="shell" role="application" aria-label="Calculator">
         <header class="topbar">
           <div class="brand">
-            <div class="brand__dot" aria-hidden="true"></div>
-            <div class="brand__text">
-              <div class="brand__title">Scientific Calculator</div>
-              <div class="brand__subtitle">fast • offline • keyboard-ready</div>
-            </div>
-          </div>
-          <div class="status" aria-hidden="true">
-            <span class="status__pill">ESC = clear</span>
-            <span class="status__pill">Enter = equals</span>
+            <div class="brand__title">Calculator</div>
+            <div class="brand__subtitle" aria-hidden="true">ESC = clear · Enter = equals</div>
           </div>
         </header>
 
@@ -86,7 +79,7 @@
             Functions: <span class="mono">sin cos tan sqrt log ln abs round floor ceil</span>
           </div>
           <div class="footer__note">
-            Tips: use <span class="mono">^</span> for power, <span class="mono">!</span> for factorial, parentheses supported.
+            Tips: use <span class="mono">^</span> for power, <span class="mono">!</span> for factorial.
           </div>
         </footer>
       </section>
